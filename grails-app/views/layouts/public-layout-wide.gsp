@@ -8,10 +8,10 @@
 	<g:render template="/shared/meta" />
 	<g:render template="/shared/title-and-icon" />
 	
-	<link rel="stylesheet" href="${resource(dir: 'css/shared', file: 'reset.css', plugin: 'domeo-shared')}" type="text/css">
-	<link rel="stylesheet" href="${resource(dir: 'css/shared', file: 'logo.css', plugin: 'domeo-shared')}" type="text/css">
-	<link rel="stylesheet" href="${resource(dir: 'css/shared/business', file: 'layout.css', plugin: 'domeo-shared')}" type="text/css">
-	<link rel="stylesheet" href="${resource(dir: 'css/shared/custom', file: 'navigation-menu.css', plugin: 'domeo-shared')}" type="text/css">
+	<link rel="stylesheet" href="${resource(dir: 'css/shared', file: 'reset.css', plugin: 'af-shared')}" type="text/css">
+	<link rel="stylesheet" href="${resource(dir: 'css/shared', file: 'logo.css', plugin: 'af-shared')}" type="text/css">
+	<link rel="stylesheet" href="${resource(dir: 'css/shared/business', file: 'layout.css', plugin: 'af-shared')}" type="text/css">
+	<link rel="stylesheet" href="${resource(dir: 'css/shared/custom', file: 'navigation-menu.css', plugin: 'af-shared')}" type="text/css">
 	
 	<g:render template="/shared/scripts" />
     
