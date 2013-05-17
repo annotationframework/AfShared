@@ -18,7 +18,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package org.mindinformatics.annotation.framework.module.shared.examples
+package org.mindinformatics.ann.framework.module.shared.examples
 
 /**
  * @author Paolo Ciccarese <paolo.ciccarese@gmail.com>
