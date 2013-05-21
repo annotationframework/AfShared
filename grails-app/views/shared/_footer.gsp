@@ -1,5 +1,6 @@
 <div class="wrapper col4">
   <div id="footer">
+  <div style="padding:15px;">
     <div class="footbox">
       <h2>Stay In The Know !</h2>
       <p>Please enter your email to join our mailing list</p>
@@ -33,5 +34,6 @@
       <!-- -->
     </div>
     <br class="clear" />
+  </div>
   </div>
 </div>

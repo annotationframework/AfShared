@@ -99,6 +99,10 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 	padding: 5px;
 	background-color: black;
 	}
+	
+#adminBar a{background: black; color:white;}	
+#adminBar p.f_left{float:left; height:20px;}
+#adminBar p.f_right{float:right;}
 
 /* ----------------------------------------------Header-------------------------------------*/
 
