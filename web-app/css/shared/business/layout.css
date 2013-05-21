@@ -166,7 +166,17 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 /* ----------------------------------------------Content-------------------------------------*/
 
 #container{
-	padding:20px 0;
+	padding:20px 0;	
+	line-height: 20px;
+	}
+	
+.innercontainer{
+	padding:15px; 
+	border-left: 1px #A2B1B9 dotted;
+	}
+	
+.innercontainer p { 
+	padding-bottom: 5px;
 	}
 
 #container h1, #container h2, #container h3, #container h4, #container h5, #container h6{
