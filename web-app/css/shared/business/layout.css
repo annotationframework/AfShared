@@ -11,6 +11,7 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 @import url(tables.css);
 @import url(homepage.css);
 @import url(featured_slide.css);
+@import url(interaction_slide.css);
 
 body{
 	margin:0;
@@ -75,7 +76,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 
 /* ----------------------------------------------Generalise-------------------------------------*/
 
-#header, #topbar, #featured_slide, #homecontent, #container, #footer, #copyright{
+#header, #topbar, #featured_slide, #interaction_slide, #homecontent, #container, #footer, #copyright{
 	position:relative;
 	margin:0 auto 0;
 	display:block;

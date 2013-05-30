@@ -1,8 +1,14 @@
 <div class="wrapper col0">
  <div id="adminBar">
      <p class="f_left">
+     	<g:link controller="public" action="index">Home :: </g:link>
     	<sec:ifAnyGranted roles="ROLE_ADMIN">
   			<g:link controller="administrator" action="index">Administration Dashboard </g:link>
+  		</sec:ifAnyGranted>
+  		<sec:ifAnyGranted roles="ROLE_MANAGER">
+  			<sec:ifNotGranted roles="ROLE_ADMIN">
+  				<g:link controller="manager" action="index">Manager Dashboard </g:link>
+  			</sec:ifNotGranted>
   		</sec:ifAnyGranted>
   		<%-- 
   		<sec:ifAllGranted roles="ROLE_ADMIN,ROLE_MANAGER">

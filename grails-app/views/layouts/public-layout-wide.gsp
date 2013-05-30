@@ -13,11 +13,12 @@
 	<link rel="stylesheet" href="${resource(dir: 'css/shared/business', file: 'layout.css', plugin: 'af-shared')}" type="text/css">
 	<link rel="stylesheet" href="${resource(dir: 'css/shared/custom', file: 'navigation-menu.css', plugin: 'af-shared')}" type="text/css">
 	
-	<g:render template="/shared/scripts" />
-    
+	<g:javascript library="jquery"/>
+	
 	<g:layoutHead/>
 	<r:layoutResources />
 </head>
 <body>
 	<g:layoutBody/>
+	<g:render template="/shared/scripts" />
 </body>

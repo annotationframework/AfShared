@@ -94,13 +94,13 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 	position:relative;
 	margin:0 auto 0;
 	display:block;
-	padding: 5px;
+	padding: 2px;
 	background-color: black;
 	}
 	
 #adminBar a{background: black; color:white;}	
-#adminBar p.f_left{float:left; height:20px;}
-#adminBar p.f_right{float:right;}
+#adminBar p.f_left{float:left; height:22px; padding-left: 4px;}
+#adminBar p.f_right{float:right; padding-right: 4px;}
 
 /* ----------------------------------------------Header-------------------------------------*/
 
@@ -191,9 +191,12 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 	}
 
 #content{
+	/*
 	display:block;
+	
 	float:left;
 	width:600px;
+	*/
 	}
 
 /* ------Comments-----*/
@@ -326,10 +329,13 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 /* ----------------------------------------------Copyright-------------------------------------*/
 
 #copyright{
-	padding:15px 0;
+	padding:15px 10px;
 	}
 
 #copyright p{
 	margin:0;
 	padding:0;
 	}
+
+#copyright .fl_left{float:left; height:60px;}
+#copyright .fl_right{float:right; height:60px;}

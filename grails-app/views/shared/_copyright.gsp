@@ -22,10 +22,13 @@
 	    		</g:else>
 	    </g:else>
     </p>
-    <p class="fl_right" style="text-align: right">Template by 
+    <p class="fl_right" style="text-align: right">
+    	<%-- 
+    	Template by 
     	<a href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a>
     	modified by <a href="http://www.paolociccarese.info/" title="Dr. Paolo Ciccarese">Paolo</a>
     	<br/>
+    	--%>
 	    Powered by <a href="http://annotationframework.org/" title="Domeo Annotation Framework">Domeo</a> Technology    	
     </p>
     <br class="clear" />
