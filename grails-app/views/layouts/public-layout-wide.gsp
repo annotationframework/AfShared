@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="${resource(dir: 'css/shared', file: 'logo.css', plugin: 'af-shared')}" type="text/css">
 	<link rel="stylesheet" href="${resource(dir: 'css/shared/business', file: 'layout.css', plugin: 'af-shared')}" type="text/css">
 	<link rel="stylesheet" href="${resource(dir: 'css/shared/custom', file: 'navigation-public.css', plugin: 'af-shared')}" type="text/css">
+	<link rel="stylesheet" href="${resource(dir: 'css/shared/custom', file: 'banner-public.css', plugin: 'af-shared')}" type="text/css">
 	
 	<g:javascript library="jquery"/>
 	

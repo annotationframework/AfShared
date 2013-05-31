@@ -1,0 +1,55 @@
+div.public-formbox {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #fff;
+	padding: 15px;
+}
+
+.public-formbox-inner {
+	width: 450px;
+	border: 1px #ddd solid;
+	background: #fff;
+	height: 140px;
+}
+
+.public-formbox-inner table {
+	border: 0px;
+}
+
+td.public-formbox-title {
+	
+	background: #FFCC00;
+	border-bottom: 1px #cc3300 solid;
+	border-bottom: 1px #ddd solid;
+	color: #000;
+	padding: 0;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 18px;
+	padding-top: 10px;
+	height: 20px;
+	
+	/* IE10 Consumer Preview */ 
+	background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #DDDDDD 100%);
+	/* Mozilla Firefox */ 
+	background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #DDDDDD 100%);
+	/* Opera */ 
+	background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #DDDDDD 100%);
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #FFFFFF), color-stop(1, #DDDDDD));
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #DDDDDD 100%);
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: linear-gradient(to top, #FFFFFF 0%, #DDDDDD 100%);
+}
+
+td.public-formbox-title table {
+	width: 100%;
+	font-size: 16px;
+	border: 0;
+}
+
+table.public-formbox-inner  td {
+	//border: 0;
+}
