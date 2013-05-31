@@ -116,6 +116,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 	display:block;
 	float:left;
 	width:300px;
+	height:130px;
 	overflow:hidden;
 	}
 
@@ -178,6 +179,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 .innercontainer{
 	padding:15px; 
 	border-left: 1px #A2B1B9 dotted;
+	border-right: 1px #A2B1B9 dotted;
 	}
 	
 .innercontainer p { 

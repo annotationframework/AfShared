@@ -1,7 +1,7 @@
 <div class="wrapper col0">
  <div id="adminBar">
      <p class="f_left">
-     	<g:link controller="public" action="index">Home :: </g:link>
+     	<g:link controller="main" action="index">Home :: </g:link>
     	<sec:ifAnyGranted roles="ROLE_ADMIN">
   			<g:link controller="administrator" action="index">Administration Dashboard </g:link>
   		</sec:ifAnyGranted>

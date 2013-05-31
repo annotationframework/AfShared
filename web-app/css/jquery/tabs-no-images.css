@@ -24,7 +24,7 @@ ul.css-tabs a {
     border:1px solid #666;
     border-bottom:0px;
     height:18px;
-    background-color:#efefef;
+    background-color:#ddd;
     color:#777;
     margin-right:2px;
     position:relative;
@@ -40,8 +40,27 @@ ul.css-tabs a:hover {
 
 /* selected tab */
 ul.css-tabs a.current {
-    background-color:#ddd;
-    border-bottom:1px solid #ddd;
+    background-color:#fff;
+    	
+	/* IE10 Consumer Preview */ 
+	background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #DDDDDD 100%);
+	
+	/* Mozilla Firefox */ 
+	background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #DDDDDD 100%);
+	
+	/* Opera */ 
+	background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #DDDDDD 100%);
+	
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #FFFFFF), color-stop(1, #DDDDDD));
+	
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #DDDDDD 100%);
+	
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: linear-gradient(to top, #FFFFFF 0%, #DDDDDD 100%);
+	
+    border-bottom:1px solid #fff;
     color:#000;
     cursor:default;
 }
