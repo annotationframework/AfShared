@@ -16,10 +16,12 @@
 	
 	<g:javascript library="jquery"/>
 	
+	
 	<g:layoutHead/>
 	<r:layoutResources />
 </head>
 <body>
+	
 	<g:layoutBody/>
 	<g:render template="/shared/scripts" />
 </body>
